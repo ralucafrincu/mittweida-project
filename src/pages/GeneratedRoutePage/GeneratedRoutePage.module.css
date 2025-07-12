@@ -1,0 +1,14 @@
+.generatedRouteContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    button {
+        margin: 10% 20% 10% 20%;
+    }
+
+}
+
+.mapContainer{
+    height: 55vh;
+}

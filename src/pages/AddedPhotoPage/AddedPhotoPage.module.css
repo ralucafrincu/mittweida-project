@@ -1,0 +1,14 @@
+.addedPhotoPageContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    button {
+        margin-top: 22%;
+    }
+
+    h1 {
+        margin: 25% 18% 25% 18%
+    }
+}

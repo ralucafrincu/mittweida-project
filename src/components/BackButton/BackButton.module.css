@@ -1,0 +1,12 @@
+.BackButton {
+    border: none;
+    background: none;
+    cursor: pointer;
+    padding: 0;
+    margin-left: 7%;
+    margin-top: 7%;
+}
+
+/*.BackButton:hover img {*/
+/*    transform: scale(1.1);*/
+/*}*/

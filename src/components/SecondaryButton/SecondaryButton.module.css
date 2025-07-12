@@ -1,0 +1,15 @@
+.lightPurpleButton {
+    background-color: #907888;
+    color: #E7D8C5;
+    cursor: pointer;
+    text-align: center;
+    font-family: Kalnia, serif;
+    font-weight: 390;
+    font-size: 1.2rem;
+    padding: 1.5rem 2rem;
+
+    /*margin: 10% 27% 8% 27%;*/
+    border-radius: 2rem;
+    box-shadow: #705869FF 4px 4px 7px;
+    border: none;
+}

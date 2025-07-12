@@ -1,0 +1,10 @@
+.pageContent{
+    h1{
+        margin-top: 5%;
+    }
+
+    .mapContainer {
+        height: 85vh;
+        margin-top: 5vh;
+    }
+}

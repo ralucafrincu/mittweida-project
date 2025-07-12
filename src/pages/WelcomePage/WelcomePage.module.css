@@ -1,0 +1,52 @@
+.welcomePageContent {
+    display: flex;
+    flex-direction: column;
+    img {
+        width: 100%;
+    }
+
+    button {
+        margin: 10% 20% 8% 20%;
+    }
+
+}
+
+p {
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    font-weight: 460;
+    font-size: 1rem;
+}
+
+span {
+    text-align: center;
+    font-weight: 460;
+    font-size: 1rem;
+    /*margin-top: 5%;*/
+}
+
+
+.gradient {
+    height: 35%;
+    width: 100%;
+    background: linear-gradient(to bottom, rgba(231, 216, 197, 0), rgb(231, 216, 197));
+    position: absolute;
+    bottom: -0.1rem;
+}
+
+.heroContainer {
+    position: relative;
+}
+
+.heroContainer img {
+    display: block;
+}
+
+.clickable {
+    button {
+        margin: 6% 23% 11% 23%;
+        color: #503047;
+        text-shadow: #806d7a 3px 3px 6px;
+    }
+}

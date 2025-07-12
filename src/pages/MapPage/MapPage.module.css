@@ -1,0 +1,29 @@
+.buttonContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 0.15rem;
+    justify-content: space-evenly;
+    button {
+        margin-top: 8%;
+        margin-bottom: 7%;
+    }
+}
+
+.finishButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    button {
+        margin-left: 17%;
+        margin-right: 17%;
+        margin-bottom: 8%;
+        /*background-color: #9D6C8D;*/
+        /*background-color: #660747;*/
+        background-color: #895076;
+        /*background-color: #6f2f6d;*/
+    }
+}
+
+.mapContainer {
+    height: 65vh;
+}

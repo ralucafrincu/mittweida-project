@@ -1,0 +1,16 @@
+body {
+    font-family: "Kalnia", serif;
+    font-optical-sizing: auto;
+    background-color: #E7D8C5;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #904D7A;
+}
+
+button {
+    margin: 0;
+    padding: 0;
+}

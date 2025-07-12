@@ -1,0 +1,26 @@
+.purpleBox {
+    background-color: #503047;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 3%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+
+    .centerButton {
+        button {
+            left: 50%;
+            transform: translateX(60%);
+        }
+    }
+
+    .rightButton {
+        button {
+            right: 50%;
+            transform: translateX(100%);
+        }
+    }
+}

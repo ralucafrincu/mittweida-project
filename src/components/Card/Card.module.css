@@ -1,0 +1,15 @@
+.card {
+    border-radius: 2rem;
+    color: #503047;
+    background-color: rgba(144, 120, 136, 21%);
+    padding: 2rem;
+    margin: 8% 7% 8% 7%;
+    border: none;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2.2rem;
+
+}
