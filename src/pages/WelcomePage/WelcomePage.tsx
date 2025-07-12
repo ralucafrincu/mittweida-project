@@ -20,9 +20,10 @@ export default function WelcomePage() {
     return (
         <div className={styles.welcomePageContent}>
             <div className={styles.heroContainer}>
-                {/*<img src={"/photos/mittweida.jpg"} alt="picture of mittweida"/>*/}
                 {/*<img src={"../../../photos/mittweida.jpg"} alt="picture of mittweida"/>*/}
-                <img src={"mittweida-project/photos/mittweida.jpg"} alt="picture of mittweida"/>
+                {/*<img src={"/public/photos/mittweida.jpg"} alt="picture of mittweida"/>*/}
+                <img src={`${import.meta.env.BASE_URL}photos/mittweida.jpg`} alt="Picture of Mittweida"/>
+
                 <div className={styles.gradient}></div>
             </div>
             <Header label={"Welcome to Mittweida!"} size={"big"}/>
