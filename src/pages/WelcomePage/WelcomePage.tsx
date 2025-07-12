@@ -21,7 +21,8 @@ export default function WelcomePage() {
         <div className={styles.welcomePageContent}>
             <div className={styles.heroContainer}>
                 {/*<img src={"/photos/mittweida.jpg"} alt="picture of mittweida"/>*/}
-                <img src={"../../../photos/mittweida.jpg"} alt="picture of mittweida"/>
+                {/*<img src={"../../../photos/mittweida.jpg"} alt="picture of mittweida"/>*/}
+                <img src={"mittweida-project/photos/mittweida.jpg"} alt="picture of mittweida"/>
                 <div className={styles.gradient}></div>
             </div>
             <Header label={"Welcome to Mittweida!"} size={"big"}/>
