@@ -31,7 +31,6 @@ export default function ProgressTrackerPage({params}: {params: Record<string, st
     }
 
 
-
     return(
         <div>
             <div className={styles.progressTrackerContainer}>

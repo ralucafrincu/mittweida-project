@@ -14,7 +14,7 @@ export default function StopMapPage({params}: {params: Record<string, string>}) 
 
     const route :[number, number][] =[ [50.9856, 12.9810], [lat, lon]];
 
-    const [location, navigate] = useLocation();
+    const [, navigate] = useLocation();
 
     return (
         <div className={styles.pageContent}>

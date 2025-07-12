@@ -8,7 +8,7 @@ import {Link, useLocation} from "wouter";
 
 export default function AddStopPage({params}: {params: Record<string, string>}) {
 
-    const [location, navigate] = useLocation();
+    const [, navigate] = useLocation();
 
     function handleBackClick() {
         navigate(`/map/${params.hour}`);
@@ -22,7 +22,6 @@ export default function AddStopPage({params}: {params: Record<string, string>}) 
             <Header label={"Choose a cafe or a restaurant"} size={"small"} />
 
             <Card>
-                {/*<Link to="/routing/Cafe No.14/50.98712103324559/12.97074763961249/">*/}
                 <Link to={`/routing/Cafe No.14/50.98712103324559/12.97074763961249/${params.hour}`}>
                     <div>
                         <ClickableText label={"Cafe No.14"}/>

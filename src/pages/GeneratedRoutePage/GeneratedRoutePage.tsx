@@ -8,7 +8,7 @@ import {routes} from "../../routes.ts";
 
 export default function GeneratedRoutePage({params}: {params: Record<string, string>}) {
 
-    const [location, navigate] = useLocation();
+    const [, navigate] = useLocation();
 
     function handleBackClick() {
         navigate("/hours");

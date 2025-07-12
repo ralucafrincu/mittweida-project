@@ -6,7 +6,7 @@ import Header from "../../components/Header/Header.tsx";
 
 export default function SimpleMapPage() {
 
-    const [location, navigate] = useLocation();
+    const [, navigate] = useLocation();
 
     return (
         <div className={styles.pageContent}>

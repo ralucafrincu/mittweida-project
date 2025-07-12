@@ -7,7 +7,7 @@ import {routes} from "../../routes.ts";
 
 export default function MapPage({params}: {params: Record<string, string>}) {
 
-    const [location, navigate] = useLocation();
+    const [, navigate] = useLocation();
 
     const [count, setCount] = useState(0);
 

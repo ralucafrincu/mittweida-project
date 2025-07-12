@@ -5,7 +5,7 @@ import {useLocation} from "wouter";
 
 export default function PhotoMissionPage({params}: {params: Record<string, string>}) {
 
-    const [location, navigate] = useLocation();
+    const [, navigate] = useLocation();
 
     function handleSkip() {
         navigate(`/map/${params.hour}`);
@@ -17,7 +17,7 @@ export default function PhotoMissionPage({params}: {params: Record<string, strin
             <Header label={"Congrats! You have discovered a new location!"} size={"big"} />
             <Header label={"Add it to your Photo Mission"} size={"small"} />
             <button className={styles.imagePurpleButton} onClick={()=>navigate(`/camera/${params.hour}`)}>
-                <img src={"/photos/camera-icon.svg"} alt="camera-icon" />
+                <img src={"../../../photos/camera-icon.svg"} alt="camera-icon" />
             </button>
             <SecondaryButton label={"Skip"} onClickHandler={handleSkip}/>
         </div>

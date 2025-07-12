@@ -6,7 +6,7 @@ import {useLocation} from "wouter";
 
 export default function UploadPhotoPage({params}: {params: Record<string, string>}) {
 
-    const [location, navigate] = useLocation();
+    const [, navigate] = useLocation();
 
     const image = sessionStorage.getItem("capturedImage");
 
@@ -15,11 +15,9 @@ export default function UploadPhotoPage({params}: {params: Record<string, string
             <Header label={"Here's your photo"} size={"big"}/>
 
 
-            {image ? <img src={image} style={{height:'40%', width:'70%', borderRadius:'1.7rem'}}/> : <img src={"/photos/random-pic.svg"}/>}
+            {image && <img src={image} style={{height:'40%', width:'70%', borderRadius:'1.7rem'}} alt={"you picture"}/> }
 
             <div className={styles.buttonContainer}>
-                {/*<Button label={"Upload photo"} onClickHandler={()=>navigate("/added")}/>*/}
-                {/*<SecondaryButton label={"Retake photo"} onClickHandler={()=>navigate("/camera")}/>*/}
 
                 <Button
                     label={"Upload photo"}

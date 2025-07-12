@@ -10,7 +10,7 @@ export default function HoursPage() {
 
     const [chosenHours, setChosenHours] = useState<number>();
 
-    const [location, navigate] = useLocation();
+    const [, navigate] = useLocation();
 
     function handleBackButtonClick() {
         navigate("/");

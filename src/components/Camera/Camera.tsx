@@ -6,7 +6,7 @@ import {useLocation} from "wouter";
 
 export default function Camera({hour}: {hour: string}) {
 
-    const [location, navigate] = useLocation();
+    const [, navigate] = useLocation();
 
     const cameraRef = useRef<Webcam>(null);
 

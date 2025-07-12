@@ -1,4 +1,3 @@
-//import cn from "classnames";
 import styles from "./WelcomePage.module.css";
 import Header from "../../components/Header/Header.tsx";
 import Button from "../../components/Button/Button.tsx";
@@ -7,7 +6,7 @@ import {useLocation} from "wouter";
 
 export default function WelcomePage() {
 
-    const [location, navigate] = useLocation();
+    const [, navigate] = useLocation();
 
     function handleButtonClick() {
         navigate("/hours");
@@ -21,7 +20,8 @@ export default function WelcomePage() {
     return (
         <div className={styles.welcomePageContent}>
             <div className={styles.heroContainer}>
-                <img src={"/photos/mittweida.jpg"} alt="picture of mittweida"/>
+                {/*<img src={"/photos/mittweida.jpg"} alt="picture of mittweida"/>*/}
+                <img src={"../../../photos/mittweida.jpg"} alt="picture of mittweida"/>
                 <div className={styles.gradient}></div>
             </div>
             <Header label={"Welcome to Mittweida!"} size={"big"}/>
