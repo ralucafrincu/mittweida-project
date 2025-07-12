@@ -1,4 +1,5 @@
 {
+  "homepage": "https://ralucafrincu.github.io/mittweida-project",
   "name": "mittweida-project",
   "private": true,
   "version": "0.0.0",
@@ -8,7 +9,9 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "test": "vitest"
+    "test": "vitest",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@fseehawer/react-circular-slider": "^3.2.7",
@@ -33,6 +36,7 @@
     "eslint": "^9.25.0",
     "eslint-plugin-react-hooks": "^5.2.0",
     "eslint-plugin-react-refresh": "^0.4.19",
+    "gh-pages": "^6.3.0",
     "globals": "^16.0.0",
     "jsdom": "^26.1.0",
     "typescript": "~5.8.3",
