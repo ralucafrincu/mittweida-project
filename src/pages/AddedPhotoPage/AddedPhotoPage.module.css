@@ -5,10 +5,15 @@
     align-items: center;
 
     button {
-        margin-top: 22%;
+        margin-top: 10%;
+        margin-bottom: 10%;
     }
 
     h1 {
-        margin: 25% 18% 25% 18%
+        margin: 10% 18% 15% 18%
+    }
+
+    img {
+        margin-bottom: 5%;
     }
 }

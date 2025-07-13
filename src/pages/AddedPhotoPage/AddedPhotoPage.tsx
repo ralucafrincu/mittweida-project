@@ -13,7 +13,7 @@ export default function AddedPhotoPage({params}: {params: Record<string, string>
         <div className={styles.addedPhotoPageContent}>
             <Header label={"Your photo was added to the Photo Mission!"} size={"big"}/>
 
-            {image && <img src={image} style={{height:'40%', width:'70%', borderRadius:'1.7rem'}} alt={"your picture"}/>}
+            {image && <img src={image} style={{height:'25%', width:'65%', borderRadius:'1.7rem'}} alt={"your picture"}/>}
 
             <Button label={"Back to map"} onClickHandler={()=>navigate(`/map/${params.hour}`)}/>
         </div>

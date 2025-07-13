@@ -4,16 +4,16 @@
     align-items: center;
 
     h1 {
-        margin: 17% 23% 7% 23%;
+        margin: 15% 23% 7% 23%;
     }
 
     h2 {
-        margin: 7% 15% 10% 15%;
+        margin: 5% 18% 10% 18%;
     }
 }
 
 .mapContainer{
-    height: 35vh;
+    height: 32vh;
 }
 
 .photoMissionContainer{
@@ -23,7 +23,7 @@
     justify-content: center;
 
     h1 {
-        margin-top: 17%;
+        margin-top: 15%;
         margin-bottom: 8%;
     }
 

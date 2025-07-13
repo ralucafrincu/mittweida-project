@@ -15,7 +15,7 @@ export default function UploadPhotoPage({params}: {params: Record<string, string
             <Header label={"Here's your photo"} size={"big"}/>
 
 
-            {image && <img src={image} style={{height:'40%', width:'70%', borderRadius:'1.7rem'}} alt={"you picture"}/> }
+            {image && <img src={image} style={{height:'25%', width:'65%', borderRadius:'1.7rem'}} alt={"you picture"}/> }
 
             <div className={styles.buttonContainer}>
 
