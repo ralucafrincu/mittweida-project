@@ -4,13 +4,13 @@
     justify-content: center;
 
     h1 {
-        margin-top: 13%;
+        margin-top: 25%;
         margin-bottom: 8%;
     }
 
     h2 {
-        margin-bottom: 6%;
-        margin-top: 6%;
+        margin-bottom: 10%;
+        margin-top: 10%;
     }
 
     button {
@@ -27,7 +27,7 @@
     font-weight: 390;
     font-size: 1.2rem;
     padding: 2rem;
-    margin: 0% 27% 5% 27%;
+    margin: 10% 27% 5% 27%;
     border-radius: 2rem;
     box-shadow: #806d7a 4px 4px 7px;
     border: none;

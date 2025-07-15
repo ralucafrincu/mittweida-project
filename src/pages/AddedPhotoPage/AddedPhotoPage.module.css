@@ -10,10 +10,11 @@
     }
 
     h1 {
-        margin: 10% 18% 15% 18%
+        margin: 25% 18% 25% 18%
     }
 
     img {
-        margin-bottom: 5%;
+        margin-top: 5%;
+        margin-bottom: 15%;
     }
 }

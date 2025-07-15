@@ -12,6 +12,8 @@ import UploadPhotoPage from "./pages/UploadPhotoPage/UploadPhotoPage.tsx";
 import AddedPhotoPage from "./pages/AddedPhotoPage/AddedPhotoPage.tsx";
 import ProgressTrackerPage from "./pages/ProgressTrackerPage/ProgressTrackerPage.tsx";
 import SimpleMapPage from "./pages/SimpleMapPage/SimpleMapPage.tsx";
+import GoingBackPage from "./pages/GoingBackPage/GoingBackPage.tsx";
+//import BreakSpotPage from "./pages/BreakSpotPage.tsx";
 
 export default function App() {
 
@@ -31,6 +33,9 @@ export default function App() {
               <Route path={"/added/:hour"} component={AddedPhotoPage}/>
               <Route path={"/progress-tracker/:hour"} component={ProgressTrackerPage}/>
               <Route path={"/simple-map"} component={SimpleMapPage}/>
+
+              <Route path={"/going-back/:hour"} component={GoingBackPage}/>
+              {/*<Route path={"/break-marker"} component={BreakSpotPage}/>*/}
 
               <Route>404: Path not found!</Route>
           </Switch>
