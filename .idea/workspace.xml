@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e82db171-a232-4b73-b389-45a8c30169f9" name="Changes" comment="testing button" />
+    <list default="true" id="e82db171-a232-4b73-b389-45a8c30169f9" name="Changes" comment="change">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -97,6 +100,8 @@
       <workItem from="1752581717073" duration="17553000" />
       <workItem from="1752616525546" duration="3699000" />
       <workItem from="1752661054488" duration="1002000" />
+      <workItem from="1752669195622" duration="457000" />
+      <workItem from="1752670188761" duration="1457000" />
     </task>
     <task id="LOCAL-00001" summary="change">
       <option name="closed" value="true" />
@@ -162,14 +167,21 @@
       <option name="project" value="LOCAL" />
       <updated>1752662490361</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="change">
+      <option name="closed" value="true" />
+      <created>1752669435992</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1752669435992</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="change" />
     <MESSAGE value="changes" />
     <MESSAGE value="changed mittweida photo path" />
     <MESSAGE value="changed photo paths" />
@@ -177,6 +189,7 @@
     <MESSAGE value="css changes" />
     <MESSAGE value="adding backend + css changes" />
     <MESSAGE value="testing button" />
-    <option name="LAST_COMMIT_MESSAGE" value="testing button" />
+    <MESSAGE value="change" />
+    <option name="LAST_COMMIT_MESSAGE" value="change" />
   </component>
 </project>
