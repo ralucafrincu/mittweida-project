@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e82db171-a232-4b73-b389-45a8c30169f9" name="Changes" comment="adding backend + css changes" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;ralucafrincu&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/ralucafrincu/mittweida-project.git&quot;,
+    &quot;accountId&quot;: &quot;9426f14d-c21d-4d11-9f14-877a9f8f9e0e&quot;
+  }
+}</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2y2wjffOSKE9x9Qhmj6UP4IFPRB" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Node.js.routes.ts.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/ralucafrincu/projects/mittweida-project/src/components/Card&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/ralucafrincu/projects/mittweida-project/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/Card" />
+      <recent name="$PROJECT_DIR$/src/photos" />
+      <recent name="$PROJECT_DIR$/src/pages" />
+      <recent name="$PROJECT_DIR$/src/components" />
+      <recent name="$PROJECT_DIR$/src/components/Map" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/pages/GoingBackPage" />
+      <recent name="$PROJECT_DIR$/backend" />
+      <recent name="$PROJECT_DIR$/backend/src" />
+      <recent name="$PROJECT_DIR$/src/components/TimeSlider" />
+      <recent name="$PROJECT_DIR$/src/components/Camera" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23339.11" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23339.11" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e82db171-a232-4b73-b389-45a8c30169f9" name="Changes" comment="" />
+      <created>1749046112941</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1749046112941</updated>
+      <workItem from="1749046114452" duration="12368000" />
+      <workItem from="1749244152902" duration="5475000" />
+      <workItem from="1749725427976" duration="37406000" />
+      <workItem from="1750597460329" duration="45404000" />
+      <workItem from="1751287680563" duration="2911000" />
+      <workItem from="1751969530197" duration="254000" />
+      <workItem from="1752064510853" duration="8209000" />
+      <workItem from="1752141617980" duration="57692000" />
+      <workItem from="1752581717073" duration="17553000" />
+      <workItem from="1752616525546" duration="3699000" />
+      <workItem from="1752661054488" duration="859000" />
+    </task>
+    <task id="LOCAL-00001" summary="change">
+      <option name="closed" value="true" />
+      <created>1752280667190</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1752280667190</updated>
+    </task>
+    <task id="LOCAL-00002" summary="changes">
+      <option name="closed" value="true" />
+      <created>1752284717945</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1752284717945</updated>
+    </task>
+    <task id="LOCAL-00003" summary="changed mittweida photo path">
+      <option name="closed" value="true" />
+      <created>1752287049329</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1752287049329</updated>
+    </task>
+    <task id="LOCAL-00004" summary="changed photo paths">
+      <option name="closed" value="true" />
+      <created>1752288739991</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1752288739992</updated>
+    </task>
+    <task id="LOCAL-00005" summary="fixing markers">
+      <option name="closed" value="true" />
+      <created>1752289439284</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1752289439284</updated>
+    </task>
+    <task id="LOCAL-00006" summary="css changes">
+      <option name="closed" value="true" />
+      <created>1752419236236</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1752419236237</updated>
+    </task>
+    <task id="LOCAL-00007" summary="adding backend + css changes">
+      <option name="closed" value="true" />
+      <created>1752621291324</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1752621291324</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="change" />
+    <MESSAGE value="changes" />
+    <MESSAGE value="changed mittweida photo path" />
+    <MESSAGE value="changed photo paths" />
+    <MESSAGE value="fixing markers" />
+    <MESSAGE value="css changes" />
+    <MESSAGE value="adding backend + css changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding backend + css changes" />
+  </component>
+</project>
