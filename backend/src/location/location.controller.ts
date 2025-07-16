@@ -1,24 +1,3 @@
-// import { Controller, Post, Get, Body } from '@nestjs/common';
-// import { LocationService } from './location.service';
-// import { Location } from './locationModel';
-//
-// @Controller('location')
-// export class LocationController {
-//     constructor(private readonly locationService: LocationService) {}
-//
-//     @Post()
-//     save(@Body() location: Location) {
-//         return this.locationService.saveLocation(location);
-//     }
-//
-//     @Get()
-//     get() {
-//         return this.locationService.getLocation();
-//     }
-// }
-
-
-// src/location/location.controller.ts
 import { Controller, Get, Post, Body, BadRequestException } from '@nestjs/common';
 import { LocationService } from './location.service';
 
