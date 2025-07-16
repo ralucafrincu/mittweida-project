@@ -3,7 +3,7 @@
 
 # Running the backend: npm run start:dev
 ### backend running on http://localhost:3001/location
-backend is getting latitude and longitude data
+backend is getting location (latitude and longitude) data
 
 ## Notes about the app when viewing it
 
